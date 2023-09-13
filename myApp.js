@@ -2,7 +2,8 @@ let express = require('express');
 let app = express();
 
 
-console.log("Hello World")
+// console.log("Hello World")
+
 let absolutePath = __dirname + '/views/index.html'
 
 app.get('/', function(req,res){
